@@ -1,0 +1,56 @@
+﻿<nav class="sidebarp locked">
+    <div class="logo_items flex">
+        <span class="nav_image">
+            <img src="/img/logo.png" alt="AlVerLogo" />
+        </span>
+        <span class="logo_name">AlVer</span>
+        <i class="bx bx-lock-alt" id="lock-icon" title="Yan Menüyü Aç"></i>
+        <i class="bx bx-x" id="sidebarp-close"></i>
+    </div>
+
+    <div class="menu_container">
+        <div class="menu_items">
+            <ul class="menu_item">
+                <li class="item">
+                    <a class="link flex" asp-controller="Profile" asp-action="Basket">
+                        <i class="bx bx-basket"></i>
+                        <span>Sepetim</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link flex" asp-controller="Profile" asp-action="Favorites">
+                        <i class="bx bx-heart"></i>
+                        <span>Favorilerim</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link flex" asp-controller="Profile" asp-action="Orders">
+                        <i class="bx bxs-basket"></i>
+                        <span>Siparişlerim</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link flex" asp-controller="Profile" asp-action="ChangePassword">
+                        <i class="bx bx-lock-alt"></i>
+                        <span>Şifre Değiştir</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link flex" asp-controller="Profile" asp-action="Informations">
+                        <i class="bx bx-home"></i>
+                        <span>Bilgilerim</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebarp_profile flex">
+            <span class="nav_image">
+                <img src="/img/user.jpg" alt="Kullanıcı" />
+            </span>
+            <div class="data_text">
+                <span class="email">@User.Identity.Name.Split('@')[0]</span>
+            </div>
+        </div>
+    </div>
+</nav>

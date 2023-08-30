@@ -1,0 +1,47 @@
+﻿@using AlVer.Classes;
+@{
+    Layout = "_LayoutAdmin";
+}
+@model List<Bill> 
+<div class="col-4" style="margin-left:50px;margin-top:50px;">
+    <form asp-controller="Admin" asp-action="SearchTextDirector" asp-route-which="1">
+        <input type="search" name="searchText" style="height:37px;">
+        <button class="btn btn-primary m-2">Ara</button>
+    </form>
+</div>
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Tüm Mesajlar</h6>
+        <h6>@TempData["Error"]</h6>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Satış ID</th>
+                    <th scope="col">Tarih</th>
+                    <th scope="col">Kullanıcı</th>
+                    <th scope="col">Telefon</th>
+                    <th scope="col">Fiyat</th>
+                    <th scope="col">Durum</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Bill item in Model)
+                {
+                    <tr>
+                        <td>@item.BillId</td>
+                        <td scope="row">@DateWriting.DateWrite(item.Date)</td>
+                        <td>@item.UserName</td>
+                        <td>@item.Phone</td>
+                        <td>@item.Price</td>
+                        <td>@item.Situation</td>
+                        <td><a class="btn btn-info rounded-pill m-2" asp-controller="Admin" asp-action="SaleDetails" asp-route-id="@item.BillId">Detay</a></td>
+                        <td><a class="btn btn-danger rounded-pill m-2" asp-controller="Admin" asp-action="CancelSale" asp-route-id="@item.BillId">İptal Et</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

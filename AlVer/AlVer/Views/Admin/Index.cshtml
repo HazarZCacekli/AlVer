@@ -1,0 +1,164 @@
+﻿@using AlVer.Classes;
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<!-- Sale & Revenue Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-line fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Bugünün Satışı</p>
+                    <h6 class="mb-0">@ViewBag.TodaySale ₺</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Toplam Satış</p>
+                    <h6 class="mb-0">@ViewBag.AllSale ₺</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-user fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Bugün Üye Olan Sayısı</p>
+                    <h6 class="mb-0">@ViewBag.TodayUsers</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-users fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Toplam Üye Sayısı</p>
+                    <h6 class="mb-0">@ViewBag.AllUsers</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sale & Revenue End -->
+<!-- Recent Sales Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-secondary text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Son Satışlar</h6>
+            <a asp-controller="Admin" asp-action="Sales">Hepsini Göster</a>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-white">
+                        <th scope="col">Tarih</th>
+                        <th scope="col">Kullanıcı</th>
+                        <th scope="col">Telefon</th>
+                        <th scope="col">Fiyat</th>
+                        <th scope="col">Durum</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Bill item in ViewBag.RecentSales as List<Bill>)
+                    {
+                        <tr>
+                            <td>@DateWriting.DateWrite(item.Date)</td>
+                            <td>@item.Name @item.Surname</td>
+                            <td>@item.Phone</td>
+                            <td>@item.Price ₺</td>
+                            <td>@item.Situation</td>
+                            <td><a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="SaleDetails" asp-route-id="@item.BillId">Detay</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Recent Sales End -->
+<!-- Widgets Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-md-6 col-xl-4">
+            <div class="h-100 bg-secondary rounded p-4">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                    <h6 class="mb-0">Mesajlar</h6>
+                    <a asp-controller="Admin" asp-action="Messages">Hepsini Göster</a>
+                </div>
+
+                @foreach (Message item in ViewBag.Messages as List<Message>)
+                {
+                    <a asp-controller="Admin" asp-action="MessageDetails" asp-route-id="@item.MessageId">
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img class="rounded-circle flex-shrink-0" src="/img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                            <div class="w-100 ms-3">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h6 class="mb-0">@item.Name</h6>
+                                    <small>@DateWriting.DateWrite(item.Tarih)</small>
+                                </div>
+                                @if (item.MessageBody.Length > 15)
+                                {
+                                    <span>@item.MessageBody.Substring(0,15) ...</span>
+                                }
+                                else
+                                {
+                                    <span>@item.MessageBody</span>
+                                }
+                            </div>
+                        </div>
+                    </a>
+                }
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-4">
+            <div class="h-100 bg-secondary rounded p-4">
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <h6 class="mb-0">Takvim</h6>
+                </div>
+                <div id="calender"></div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-4">
+            <div class="h-100 bg-secondary rounded p-4">
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <h6 class="mb-0">Yapılacaklar Listesi</h6>
+                    <a asp-controller="Admin" asp-action="Tasks">Hepsini Göster</a>
+                </div>
+                <form asp-controller="Admin" asp-action="AddTask" asp-route-which="1">
+                    <div class="d-flex mb-2">
+                        <input class="form-control bg-dark border-0" type="text" placeholder="Yapılacak işi yazın." name="taskBody" required>
+                        <button type="submit" class="btn btn-primary ms-2">Ekle</button>
+                    </div>
+                </form>
+
+                @foreach (ToDoTask item in ViewBag.Tasks as List<ToDoTask>)
+                {
+                    <div class="d-flex align-items-center border-bottom py-2">
+                        <div class="w-100 ms-3">
+                            <div class="d-flex w-100 align-items-center justify-content-between">
+
+                                @if (item.TaskBody.Length > 20)
+                                {
+                                    <span>@item.TaskBody.Substring(0,20) ...</span>
+                                }
+                                else
+                                {
+                                    <span>@item.TaskBody</span>
+                                }
+                                <a class="btn btn-sm" asp-controller="Admin" asp-action="DeleteTask" asp-route-id="@item.ToDoTaskId" asp-route-which="1"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Widgets End -->

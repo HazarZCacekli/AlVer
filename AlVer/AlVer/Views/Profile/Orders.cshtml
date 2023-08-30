@@ -1,0 +1,66 @@
+﻿@using AlVer.Classes;
+@model List<Bill>
+<partial name="_PartialSidebar"></partial>
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="/img/breadcrumb.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Siparişlerim</h2>
+                    <div class="breadcrumb__option">
+                        <a asp-controller="Home" asp-action="Index">Anasayfa</a>
+                        <span>Siparişler</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Shoping Cart Section Begin -->
+<section class="shoping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shoping__cart__table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sipariş Kodu</th>
+                                <th>Tarih</th>
+                                <th>Toplam Fiyat</th>
+                                <th>Sipariş Durum</th>
+                                <th>Sipariş Detayları</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Bill item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <h5>@item.BillId</h5>
+                                    </td>
+                                    <td>
+                                        <b>@DateWriting.DateWrite(item.Date)</b>
+                                    </td>
+                                    <td>
+                                        <b>@item.Price ₺</b>
+                                    </td>
+                                    <td>
+                                        <b>@item.Situation</b>
+                                    </td>
+                                    <td>
+                                        <a class="primary-btn" asp-controller="Profile" asp-action="OrderDetails" asp-route-id="@item.BillId">Detaylar</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Shoping Cart Section End -->

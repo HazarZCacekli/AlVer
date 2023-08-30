@@ -1,0 +1,71 @@
+﻿@using AlVer.ViewModel;
+@{
+    Layout = "_LayoutAdmin";
+}
+@model Product
+
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Ürün Ekle</h6>
+        <form asp-controller="Admin" asp-action="UpdateProduct" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="Image" value="@Model.Image">
+            <input type="hidden" name="Image2" value="@Model.Image2">
+            <input type="hidden" name="Image3" value="@Model.Image3">
+            <input type="hidden" name="Image4" value="@Model.Image4">
+            <input type="hidden" name="Image5" value="@Model.Image5">
+            <input type="hidden" name="ProductId" value="@Model.ProductId">
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" name="Name" value="@Model.Name" required>
+                <label for="name">Ürün Adı</label>
+            </div>
+            <div class="form-floating mb-3">
+                <select class="form-select" id="category" name="CategoryId" aria-label="Floating label select example" required>
+                    <option selected value="@Model.CategoryId">@Model.Category.CategoryName</option>
+                    @foreach (Category item in ViewBag.Category as List<Category>)
+                    {
+                        <option value="@item.CategoryId">@item.CategoryName</option>
+                    }
+
+                </select>
+                <label for="category">Kategori</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="stock" name="Stock" value="@Model.Stock" required>
+                <label for="stock">Stok</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="price" name="Price" value="@Model.Price" required>
+                <label for="price">Fiyat</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" id="description" style="height:150px;" name="Description" required>@Model.Description</textarea>
+                <label for="description">Açıklama</label>
+            </div>
+            <div class="mb-3">
+                <label for="photo1" class="form-label">1. Resim</label>
+                <input class="form-control form-control-sm bg-dark" id="photo" type="file" value="@Model.Image" name="photo">
+            </div>
+            <div class="mb-3">
+                <label for="photo2" class="form-label">2. Resim</label>
+                <input class="form-control form-control-sm bg-dark" id="photo2" type="file" name="photo2">
+            </div>
+            <div class="mb-3">
+                <label for="photo3" class="form-label">3. Resim</label>
+                <input class="form-control form-control-sm bg-dark" id="photo3" type="file" name="photo3">
+            </div>
+            <div class="mb-3">
+                <label for="photo4" class="form-label">4. Resim</label>
+                <input class="form-control form-control-sm bg-dark" id="photo4" type="file" name="photo4">
+            </div>
+            <div class="mb-3">
+                <label for="photo5" class="form-label">5. Resim</label>
+                <input class="form-control form-control-sm bg-dark" id="photo5" type="file" name="photo5">
+            </div>
+
+            <div class="row" style="margin-top:40px;margin-bottom:20px;">
+                <button class="btn btn-primary rounded-pill col-9" style="margin-top:40px;margin-left:150px;">Ekle</button>
+            </div>
+        </form>
+    </div>
+</div>

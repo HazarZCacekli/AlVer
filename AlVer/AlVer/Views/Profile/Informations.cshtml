@@ -1,0 +1,60 @@
+﻿@model AppUser
+<partial name="_PartialSidebar"></partial>
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="/img/breadcrumb.jpg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<div class="breadcrumb__text">
+					<h2>Adres Değiştir</h2>
+					<div class="breadcrumb__option">
+						<a asp-controller="Home" asp-action="Index">Anasayfa</a>
+						<span>Adres</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<section class="ftco-section" style="margin-left:600px;">
+	<div class="container">
+		<div class="row ">
+			<div class="col-md-6 text-center mb-5">
+				<h2 class="heading-section"> </h2>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-12 col-lg-10">
+
+
+				<div class="login-wrap p-4 p-lg-5">
+					<div class="d-flex">
+						<div class="w-100">
+							<h3 class="mb-4">Adres Değişikliği</h3>
+						</div>
+
+					</div>
+					<form asp-controller="Profile" asp-action="Informations" class="signin-form">
+
+						<div class="form-group mb-3">
+							<label class="label" for="address">Adresim</label>
+							<textarea type="text" class="form-control" placeholder="Adresinizi kaydetmek istiyorsanız adresinizi giriniz." id="address" name="address" style="height:200px;">@Model.Address</textarea>
+						</div>
+						<div class="form-group mb-3">
+							<label class="label" for="phone">Telefon Numarası</label>
+							<input type="text" class="form-control" placeholder="Telefon" name="phone" value="@Model.PhoneNumber" id="phone">
+						</div>
+
+						<div class="form-group">
+							<button type="submit" class="form-control btn btn-primary submit px-3">Kaydet</button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

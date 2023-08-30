@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+@model AppUser
+
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Ürün Ekle</h6>
+        <form asp-controller="Admin" asp-action="UpdateUser" method="post">
+            <input type="hidden" name="Id" value="@Model.Id">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="AdSoyad" name="AdSoyad" value="@Model.AdSoyad" required>
+                <label for="AdSoyad">Ad - Soyad</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required>
+                <label for="Email">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="PhoneNumber" name="PhoneNumber" value="@Model.PhoneNumber">
+                <label for="PhoneNumber">Telefon Numarası</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" id="Address" style="height:150px;" name="Address" required>@Model.Address</textarea>
+                <label for="Address">Adres</label>
+            </div>
+
+            <div class="row" style="margin-top:40px;margin-bottom:20px;">
+                <button class="btn btn-primary rounded-pill col-9" style="margin-top:40px;margin-left:150px;">Ekle</button>
+            </div>
+        </form>
+    </div>
+</div>

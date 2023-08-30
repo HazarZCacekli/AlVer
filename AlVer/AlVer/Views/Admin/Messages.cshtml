@@ -1,0 +1,36 @@
+﻿@using AlVer.Classes;
+@{
+    Layout = "_LayoutAdmin";
+}
+@model List<Message>
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Tüm Mesajlar</h6>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Mesaj ID</th>
+                    <th scope="col">Ad - Soyad</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Tarih</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Message item in Model)
+                {
+                    <tr>
+                        <th scope="row">@item.MessageId</th>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
+                        <td>@DateWriting.DateWrite(item.Tarih)</td>
+                        <td><a class="btn btn-info rounded-pill m-2" asp-controller="Admin" asp-action="MessageDetails" asp-route-id="@item.MessageId">Detay</a></td>
+                        <td><a class="btn btn-danger rounded-pill m-2" asp-controller="Admin" asp-action="DeleteMessage" asp-route-id="@item.MessageId">Sil</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

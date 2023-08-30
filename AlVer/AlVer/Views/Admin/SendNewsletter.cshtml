@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Mesaj Detayları</h6>
+        <form asp-controller="Admin" asp-action="SendNewsletter">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" name="subject">
+                <label for="floatingInput">Konu</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" id="floatingTextarea" style="height:150px;" name="body"></textarea>
+                <label for="floatingTextarea">Mesaj</label>
+            </div>
+            <div class="row" style="margin-top:40px;margin-bottom:20px;">
+                <button class="btn btn-primary rounded-pill col-9" style="margin-top:40px;margin-left:150px;">Gönder</button>
+            </div>
+        </form>
+
+    </div>
+</div>

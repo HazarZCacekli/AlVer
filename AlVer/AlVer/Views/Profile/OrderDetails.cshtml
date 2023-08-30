@@ -1,0 +1,88 @@
+﻿@model List<Order>
+<partial name="_PartialSidebar"></partial>
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="/img/breadcrumb.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Alışveriş Sepeti</h2>
+                    <div class="breadcrumb__option">
+                        <a asp-controller="Home" asp-action="Index">Anasayfa</a>
+                        <span>Sepet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Shoping Cart Section Begin -->
+<section class="shoping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shoping__cart__table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="shoping__product">Ürünler</th>
+                                <th>Fiyat</th>
+                                <th>Adet</th>
+                                <th>Toplam</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Order item in Model)
+                            {
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@item.ProductId">
+                                            <img src="/product/@item.Product.Image" alt="@item.Product.Name" style="height:100px;width:100px;">
+                                            <h5>@item.Product.Name</h5>
+                                        </a>
+                                    </td>
+                                    <td class="shoping__cart__price">
+                                        @item.Product.Price ₺
+                                    </td>
+                                    <td class="shoping__cart__quantity">
+                                        <div class="quantity">
+                                            <input type="text" value="@item.Amount" disabled style="width:30px;text-align:center;">
+                                        </div>
+                                    </td>
+                                    <td class="shoping__cart__total">
+                                        @((item.Price * item.Amount).ToString("F")) ₺
+                                    </td>
+                                    <td class="shoping__cart__item__close">
+                                        <a class="primary-btn" asp-controller="Product" asp-action="ProductDetails" asp-route-id="@item.ProductId">
+                                            Detay
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <div class="shoping__checkout">
+                    <h5>Sipariş Bilgileri</h5>
+                    <ul>
+                        <li>Toplam : <span>@ViewBag.TotalPrice ₺</span></li>
+                        <li>Sipariş Durum : <span>@ViewBag.OrderSituation</span></li>
+                        <li>Ad - Soyad : <span>@ViewBag.Name</span></li>
+                        <li>Email : <span>@ViewBag.Email</span></li>
+                        <li>Adres : <span>@ViewBag.Address</span></li>
+                        <li>Posta Kodu : <span>@ViewBag.PostCode</span></li>
+                        <li>Telefon : <span>@ViewBag.Phone</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Shoping Cart Section End -->

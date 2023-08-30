@@ -1,0 +1,79 @@
+﻿<nav>
+    <div class="nav-content">
+        <div class="logo" style="margin-left:32px;">
+            <a asp-controller="Home" asp-action="Index"><img src="/img/logo.png" alt=""></a>
+        </div>
+
+        <div class="searchnav">
+            <div class="search-container">
+                <form asp-controller="Home" asp-action="SearchTextDirector">
+                    <input type="search" placeholder="Ürün Ara" name="searchText">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+            <li>
+                <div class="dropdown">
+                    <a asp-controller="Home" asp-action="Shop">Tüm Ürünler</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="5">Atıştırmalık</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="11">Bebek</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="7">Dondurma</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="8">Elektronik</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="1">Et</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="10">Hijyen</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="6">İçecek</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="12">Kırtasiye</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="2">Meyve</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="3">Sebze</a>
+                        <a asp-controller="Home" asp-action="Shop" asp-route-category="9">Temel Gıda</a>
+                    </div>
+                </div>
+                
+            </li>
+            
+            <li><a asp-controller="Contact" asp-action="Index">İletişim</a></li>
+            @if (User.IsInRole("Customer"))
+            {
+                <li>
+                    <div class="dropdown">
+                        <a>@User.Identity.Name.Split('@')[0]</a>
+                        <div class="dropdown-content">
+                            <a asp-controller="Profile" asp-action="Basket">Sepetim</a>
+                            <a asp-controller="Profile" asp-action="Favorites">Favorilerim</a>
+                            <a asp-controller="Profile" asp-action="Orders">Siparişlerim</a>
+                            <a asp-controller="Profile" asp-action="ChangePassword">Şifre Değiştir</a>
+                            <a asp-controller="Profile" asp-action="Informations">Bilgilerim</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li><a asp-controller="Login" asp-action="Logout">Çıkış Yap</a></li>
+            }
+            else if (User.IsInRole("Admin"))
+            {
+                <li><a asp-controller="Admin" asp-action="Index">Admin</a></li>
+                <li><a asp-controller="Login" asp-action="Logout">Çıkış Yap</a></li>
+            }
+            else
+            {
+                <li><a asp-controller="Login" asp-action="Register">Kayıt Ol</a></li>
+                <li><a asp-controller="Login" asp-action="Login">Giriş Yap</a></li>
+            }
+        </ul>
+    </div>
+</nav>
+
+<script>
+    let nav = document.querySelector("nav");
+      window.onscroll = function() {
+        if(document.documentElement.scrollTop > 20){
+          nav.classList.add("sticky");
+        }else {
+          nav.classList.remove("sticky");
+        }
+      }
+</script>

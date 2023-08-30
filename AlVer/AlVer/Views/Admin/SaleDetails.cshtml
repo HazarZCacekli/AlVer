@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+@model List<Order>
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Ürün ID</th>
+                    <th scope="col">Ürün Ad</th>
+                    <th scope="col">Fiyat</th>
+                    <th scope="col">Adet</th>
+                    <th scope="col">Toplam</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Order item in Model)
+                {
+                    <tr>
+                        <td>@item.ProductId</td>
+                        <td>@item.Product.Name</td>
+                        <td>@item.Product.Price</td>
+                        <td>@item.Amount</td>
+                        <td>@((item.Amount * item.Product.Price).ToString("F"))</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="col-sm-6 col-xl-6" style="margin-left:350px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Durum</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+
+                    <tr>
+                    <td>@ViewBag.Status</td>
+                    <td><a class="btn btn-primary rounded-pill m2" asp-controller="Admin" asp-action="OrderStatus" asp-route-status="İptal Edildi" asp-route-id="@ViewBag.BillId">İptal Et</a></td>
+                    <td><a class="btn btn-info rounded-pill m2" asp-controller="Admin" asp-action="OrderStatus" asp-route-status="Sipariş Alındı" asp-route-id="@ViewBag.BillId">Sipariş Alındı</a></td>
+                    <td><a class="btn btn-warning rounded-pill m2" asp-controller="Admin" asp-action="OrderStatus" asp-route-status="Kargoya Verildi" asp-route-id="@ViewBag.BillId">Kargoya Verildi</a></td>
+                    <td><a class="btn btn-success rounded-pill m2" asp-controller="Admin" asp-action="OrderStatus" asp-route-status="Teslim Edildi" asp-route-id="@ViewBag.BillId">Teslim Edildi</a></td>
+                    </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>

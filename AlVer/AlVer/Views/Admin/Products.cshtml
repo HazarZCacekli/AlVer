@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+@model List<Product>
+
+<div class="col-4" style="margin-left:70px;margin-top:50px;">
+    <form asp-controller="Admin" asp-action="SearchTextDirector" asp-route-which="2">
+        <input type="search" name="searchText" style="height:37px;" required>
+        <button class="btn btn-primary m-2">Ara</button>
+    </form>
+</div>
+
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Tüm Ürünler</h6>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Resim</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">İsim</th>
+                    <th scope="col">Fiyat</th>
+                    <th scope="col">Stok</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Product item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="/product/@item.Image" alt="@item.Name" style="height:100px;width:100px;">
+                        </td>
+                        <td>@item.ProductId</td>
+                        <td>@item.Name</td>
+                        <td>@item.Price</td>
+                        <td>@item.Stock</td>
+                        <td><a class="btn btn-warning rounded-pill m-2" asp-controller="Admin" asp-action="ProductDetails" asp-route-id="@item.ProductId">Detay</a></td>
+                        <td><a class="btn btn-danger rounded-pill m-2" asp-controller="Admin" asp-action="DeleteProduct" asp-route-id="@item.ProductId">Sil</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

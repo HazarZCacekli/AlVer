@@ -1,0 +1,47 @@
+﻿@using AlVer.ViewModel;
+@{
+    Layout = "_LayoutAdmin";
+}
+@model LoginViewModel
+<div class="col-sm-12 col-xl-11" style="margin-left:50px;margin-top:50px;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Admin Kayıt</h6>
+        <h6>@ViewBag.Success @ViewBag.Error</h6>
+        <form asp-controller="Admin" asp-action="RegisterAdmin" method="post">
+            <div class="row" style="margin-left:120px;">
+                <div class="form-floating col-5">
+                    <input type="email" class="form-control" id="floatingInput"
+                           name="username" required>
+                    <label for="floatingInput">Email Adresi</label>
+                </div>
+                <div class="form-floating col-5" style="margin-left:30px;">
+                    <input type="text" class="form-control" id="floatingName"
+                           name="namesurname" required>
+                    <label for="floatingName">Ad - Soyad</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:40px;margin-left:120px;">
+                <div class="form-floating col-5">
+                    <input type="password" class="form-control" id="floatingPassword"
+                           name="password" required>
+                    <label for="floatingPassword">Şifre</label>
+                    <span asp-validation-for="password" class="text-danger"></span>
+                </div>
+                <div class="form-floating col-5" style="margin-left:30px;">
+                    <input type="password" class="form-control" id="floatingPasswordAgain"
+                           name="passwordagain" required>
+                    <label for="floatingPasswordAgain">Şifre Tekrar</label>
+                    <span asp-validation-for="passwordagain" class="text-danger"></span>
+                </div>
+            </div>
+            <button class="btn btn-primary rounded-pill col-9" style="margin-top:40px;margin-left:150px;">Kaydet</button>
+        </form>
+    </div>
+</div>
+
+@section validation 
+{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

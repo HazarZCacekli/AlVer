@@ -1,0 +1,733 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AlVer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AlVer.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\adminbootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\adminbootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\adminstyle.css",
+      "PackagePath": "staticwebassets\\css\\adminstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\loginstyle.css",
+      "PackagePath": "staticwebassets\\css\\loginstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\navbarstyle.css",
+      "PackagePath": "staticwebassets\\css\\navbarstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\sidebarstyle.css",
+      "PackagePath": "staticwebassets\\css\\sidebarstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\img\\breadcrumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\atistirmalik.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\atistirmalik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\bebek.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\bebek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\dondurma.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\dondurma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\elektronik.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\elektronik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\et.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\et.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\hijyen.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\hijyen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\icecek.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\icecek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\kirtasiye.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\kirtasiye.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\meyve.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\meyve.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\sebze.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\sebze.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\categories\\temelgida.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\temelgida.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\payment-item.png",
+      "PackagePath": "staticwebassets\\img\\payment-item.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\adminmain.js",
+      "PackagePath": "staticwebassets\\js\\adminmain.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\sidebarscript.js",
+      "PackagePath": "staticwebassets\\js\\sidebarscript.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\2c88d1c0-d182-44e7-9768-e705247423c6.jpg",
+      "PackagePath": "staticwebassets\\product\\2c88d1c0-d182-44e7-9768-e705247423c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\57653e2a-339f-4ffa-9349-654cc13a5aef.jpg",
+      "PackagePath": "staticwebassets\\product\\57653e2a-339f-4ffa-9349-654cc13a5aef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\70e04531-5ab8-48dd-a438-795a7d6502e5.jpg",
+      "PackagePath": "staticwebassets\\product\\70e04531-5ab8-48dd-a438-795a7d6502e5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\a4kagit.jpg",
+      "PackagePath": "staticwebassets\\product\\a4kagit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\algida.jpg",
+      "PackagePath": "staticwebassets\\product\\algida.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\avokado.jpg",
+      "PackagePath": "staticwebassets\\product\\avokado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\baskul.jpg",
+      "PackagePath": "staticwebassets\\product\\baskul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\bebekbezi.jpg",
+      "PackagePath": "staticwebassets\\product\\bebekbezi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\bebekpure.jpg",
+      "PackagePath": "staticwebassets\\product\\bebekpure.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\bebeksampuan.jpg",
+      "PackagePath": "staticwebassets\\product\\bebeksampuan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\bebeksut.jpg",
+      "PackagePath": "staticwebassets\\product\\bebeksut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\camasirsuyu.jpg",
+      "PackagePath": "staticwebassets\\product\\camasirsuyu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\cappy.jpg",
+      "PackagePath": "staticwebassets\\product\\cappy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\cocacola.jpg",
+      "PackagePath": "staticwebassets\\product\\cocacola.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\cornetto.jpg",
+      "PackagePath": "staticwebassets\\product\\cornetto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\deterjan.jpg",
+      "PackagePath": "staticwebassets\\product\\deterjan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\dido.jpg",
+      "PackagePath": "staticwebassets\\product\\dido.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\dismacunu.jpg",
+      "PackagePath": "staticwebassets\\product\\dismacunu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\domates.jpg",
+      "PackagePath": "staticwebassets\\product\\domates.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\doritos.jpg",
+      "PackagePath": "staticwebassets\\product\\doritos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\f94c58f0-0fba-40ad-b06c-82ef1bd8957c.jpg",
+      "PackagePath": "staticwebassets\\product\\f94c58f0-0fba-40ad-b06c-82ef1bd8957c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\fanta.jpg",
+      "PackagePath": "staticwebassets\\product\\fanta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\icetea.jpg",
+      "PackagePath": "staticwebassets\\product\\icetea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\iceteakutu.jpg",
+      "PackagePath": "staticwebassets\\product\\iceteakutu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\iphone11.jpg",
+      "PackagePath": "staticwebassets\\product\\iphone11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\ispanak.jpg",
+      "PackagePath": "staticwebassets\\product\\ispanak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\kagithavlu.jpg",
+      "PackagePath": "staticwebassets\\product\\kagithavlu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\kiyma.jpg",
+      "PackagePath": "staticwebassets\\product\\kiyma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\kofte.jpg",
+      "PackagePath": "staticwebassets\\product\\kofte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\kursunkalem.jpg",
+      "PackagePath": "staticwebassets\\product\\kursunkalem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\lays.jpg",
+      "PackagePath": "staticwebassets\\product\\lays.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\limon.jpg",
+      "PackagePath": "staticwebassets\\product\\limon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\noimage.jpg",
+      "PackagePath": "staticwebassets\\product\\noimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\AlVer\\AlVer\\wwwroot\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\product\\product-9.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AlVer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AlVer.props",
+      "PackagePath": "build\\AlVer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AlVer.props",
+      "PackagePath": "buildMultiTargeting\\AlVer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AlVer.props",
+      "PackagePath": "buildTransitive\\AlVer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
